@@ -6,7 +6,7 @@ namespace exercicio
     {
         static void Main(string[] args)
         {
-            // Faça um algoritmo que diga se o número é par digtado é par ou impar
+            // Faça um algoritmo que diga se o número digitado é par ou ímpar
             int n;
             Console.WriteLine ("Escreva um número qualquer: (e tecle ENTER)");
             n = int.Parse(Console.ReadLine());
@@ -15,7 +15,7 @@ namespace exercicio
                 Console.WriteLine("É par");
             }
             else {
-                Console.WriteLine("É impar");
+                Console.WriteLine("É ímpar");
             }
  
         }
